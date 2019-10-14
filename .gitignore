@@ -1,0 +1,23 @@
+**node_modules
+# My IDE/regex is failing me at the moment, so to move things along...
+# General form: .env.environment
+.env.dev
+.env.prod
+**.env
+
+# Ignore the build output
+**build
+
+# Ignore the .pem file used for the SSH Bastion => wonky, but I need to see if this will work
+**.pem
+
+debug-request.log
+# Don't commit the terraform plan output 
+terraform-plan-output-dangerous.log
+# Ignore .env files
+**.env
+
+# Not sure if I am supposed to commit the .terraform, so I will nots
+.terraform
+
+**debugging
